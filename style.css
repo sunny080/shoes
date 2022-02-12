@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.header{
+    height: 100vh;
+    display: flex;
+
+    width: 100%;
+
+}
+
+.op{
+    width: 25%;
+    height: 100vh;
+
+    transition:all 1s ;
+    overflow: hidden;
+    position: relative;
+
+}
+.op:hover{
+    width: 40%;
+}
+.op:hover .content{
+    left: 10%;
+}
+
+.content{
+    position: absolute;
+    bottom: 200px;
+    left: -100%;
+    transition: all .7s;
+}
+.button{
+    margin-top: 20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+
+}
+.text2{
+    font-size: 25px;
+}
+.iop{
+    margin-left: 10px;
+    font-size: 30px;
+    transition: 3s ;
+}
+.button:hover .iop{
+    transform: rotate(360deg);
+}
+.text{
+    font-size: 35px;
+    color: #fff;
+}
+.op1{
+    width: 25%;
+    height: 100vh;
+    position: relative;
+    transition:all 1s ;
+    overflow: hidden;
+
+
+}
+.op1:hover{
+    width: 40%;
+}
+.op1:hover .content1{
+    left: 10%;
+}
+.content1{
+    position: absolute;
+    bottom: 200px;
+    left: -100%;
+    transition: all .7s;
+}
+.op2{
+    width: 25%;
+    height: 100vh;
+    position: relative;
+    transition:all 1s ;
+    overflow: hidden;
+
+}
+.op2:hover{
+    width: 40%;
+}
+.op2:hover .content2{
+    left: 10%;
+}
+.content2{
+    position: absolute;
+    bottom: 200px;
+    left: -100%;
+    transition: all .7s;
+}
+.op3{
+    width: 25%;
+    height: 100vh;
+    position: relative;
+    transition:all 1s ;
+    overflow: hidden;
+
+}
+
+.op3:hover{
+    width: 40%;
+}
+.op3:hover .content3{
+    left: 10%;
+}
+.content3{
+    position: absolute;
+    bottom: 200px;
+    left: -100%;
+    transition: all .7s;
+}
+.uix{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+
+}
